@@ -1,0 +1,181 @@
+.home-container{
+  background-color:  #f4f7f6;
+}
+
+.input[type='search'] {
+  color: rgb(52, 51, 51);
+  margin-top: 12px;
+  margin-right: 20px;
+}
+.navbar {
+  height: 80px; /* Adjust the height as needed */
+}
+
+.profile {
+  margin-right: 100px;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(251, 246, 246);
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(31, 136, 242);
+
+}
+@media (max-height: 576px) {
+  
+  .para{
+    width: auto;
+  }
+  .c{
+    font-size: 10px;
+  }
+}
+
+.button1 {
+
+  margin-top: -100px;
+}
+
+.para {
+  margin-top: 100px;
+  margin-left: 70px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.img1 {
+  margin-top: -380px;
+  margin-left: 480px;
+  height: 500px;
+  width: 800px;
+  margin-right: 70px;
+}
+
+@media (max-width: 576px) {
+  .img1 {
+    margin-top: 10px;
+    width: auto;
+    height: 200px;
+    margin-left: 2px;
+  }
+
+  .para {
+    margin-top: 30px;
+    margin-left: 2px;
+    text-align: justify;
+  }
+
+  .button1 {
+    margin-left: 0;
+    font-size: medium;
+   
+  }
+}
+
+.carousel {
+  margin-top: -20px;
+  align-items: center;
+  width: 800px;
+  height:400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+.carousel-indicators .active {
+  background-color: black !important;
+}
+
+.para2 {
+  text-align: center;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.881);
+  font-weight: bold;
+}
+
+
+
+@media (max-width: 576px) {
+  .carousel {
+    height: 200px;
+    width: auto;
+  }
+}
+
+.carousel-item img {
+  opacity: 0.9;
+}
+
+.carousel-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card {
+  border: 2px solid black;
+  box-shadow: 0 0 8px rgba(6, 65, 137, 0.9);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card-button {
+  margin-top: 10px;
+  background-color: rgb(22, 18, 18);
+}
+.dropdown-menu {
+  background-color:black; /* Background color of the dropdown menu */
+  color: white; /* Text color of the dropdown menu items */
+  border: none; /* Remove default border */
+}
+
+.dropdown-menu a.dropdown-item {
+  color: white; /* Text color of each dropdown item */
+}
+
+.dropdown-menu a.dropdown-item:hover {
+  background-color: rgb(14, 93, 182); /* Hover background color of dropdown items */
+}
+
+/* Dropdown Background Color when clicked */
+.dropdown.show .dropdown-toggle::after {
+  border-top-color: white !important; /* Change color of the caret */
+}
+
+@media (max-width: 576px) {
+  /* Responsive styles can be added here */
+}
+
+.cards{
+  width: 18rem;
+}
+.most-trending-domains-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.c{
+  font-weight: bold;
+  margin-bottom: 25px;
+}
